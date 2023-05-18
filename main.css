@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.trend{
+    background-color: orangered;
+    height: 60px;
+}
+ul, li{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.trendyol{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-weight: 500;
+    font-size: 40px;
+    position: absolute;
+}
+.divinput{
+    display: flex;
+}
+.input{
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid aliceblue;
+    background-color: aliceblue;
+    font-size: 12px;
+}
+.axtar{
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+}
+.ul1{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+a{
+    color: black;
+    margin-left: 40px;
+}
+.ul2{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 400;
+    justify-content: space-evenly;
+}
+.li4, .li5, .li6, .li7, .li8, .li9, .li10, .li11, .li12{
+    font-weight: 700;
+}
+hr{
+    margin-top: 10px;
+    color: aliceblue;
+}
+.yuxu{
+    display: flex;
+}
+.blok1{
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 501px;
+    height: 123px;
+    background-color: green;
+    background-image: url("./sekil1.webp");
+}
+.blok2{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: gray;
+    width: 501px;
+    height: 123px;
+    background-image: url("./sekil2.webp");
+}
