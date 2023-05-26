@@ -13,8 +13,6 @@
 }
 ul, li{
     display: flex;
-    margin-right: 20px;
-    margin-left: 20px;
     justify-content: flex-end;
     font-size: 12px;
     margin-top: 5px;
@@ -30,6 +28,7 @@ ul, li{
     display: flex;
 }
 .input{
+    position: relative;
     margin-top: 20px;
     margin-left: 300px;
     width: 600px;
@@ -40,6 +39,9 @@ ul, li{
     font-size: 12px;
 }
 .axtar{
+
+    left: 870px;
+    position: absolute;
     margin-top: 30px;
     width: 20px;
     height: 20px;
@@ -67,46 +69,62 @@ hr{
     margin-top: 10px;
     color: aliceblue;
 }
+.aydadiv{
+    width: 1300px;
+    margin: 30px auto;
+}
 .yuxu{
     display: flex;
-    width: 100%;
+    height: 116px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .blok1{
-    margin-left: 70px;
-    margin-top: 20px;
-    width: 30%;
-    height: 123px;
+    width: 400px;
+    height: 100px;
     background-color: green;
     background-image: url("./sekil1.webp");
-}
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+} 
 .blok2{
-    display: block;
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: gray;
-    width: 30%;
-    height: 123px;
+    width: 400px;
+    height: 100px;
+    background-color: green;
     background-image: url("./sekil2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
+ 
 .blok3{
-    margin-right: 30px;
-    display: block;
-    margin-top: 20px;
-    margin-left: 20px;
-    background-color: gray;
-    width: 30%;
-    height: 123px;
+    width: 400px;
+    height: 100px;
+    background-color: green;
     background-image: url("./sekil3.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
+.ayda{
+    width: 1300px;
+    height: 120px;
+    background-color: antiquewhite;
+    margin-top: 13px;
+    display: flex;
+}
+
 .li13{
     display: block;
-    padding-top: 60px;
-    padding-right: 1300px;
+    margin-right: center;
 }
 .blok4{
     display: block;
-    width: 66px;
-    height: 66px;
+    width: 68px;
+    height: 68px;
     background-color: transparent;
     background-image: url("./sekil4.webp");
     background-repeat: no-repeat;
@@ -115,64 +133,9 @@ hr{
     border: none;
     position: relative;
 }
-
-
 .bloks{
     position: absolute;
-    text-align: center;
-    font-size: 14px;
-    color: black;
-    top: 70px;
-    left: 5px;
-    font-weight: 300;
-}
-.blok5{
-    display: block;
-    width: 66px;
-    height: 66px;
-    background-color: transparent;
-    background-image: url("./En_Cok_Satanlar_202302142041.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: none;
-    position: relative;
-}
-.bloka{
-    position: absolute;
-    text-align: center;
-    font-size: 14px;
-    color: black;
-    top: 70px;
-    left: 5px;
-    font-weight: 300;
-}
-.li14{
-    position: absolute;
-    display: block;
-    padding-top: 60px;
-   margin-right: 1200px;
-}
-.li15{
-    position: absolute;
-    display: block;
-    padding-top: 60px;
-   margin-right: 1100px;
-}
-.blok6{
-    display: block;
-    width: 66px;
-    height: 66px;
-    background-color: transparent;
-    background-image: url("./En_Cok_Satanlar_202302142041.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border: none;
-    position: relative;
-}
-.blokk{
-    position: absolute;
+    padding-top: 10px;
     text-align: center;
     font-size: 14px;
     color: black;
