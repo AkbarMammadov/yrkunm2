@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .aydadiv{
+    width: 1140px; 
+     margin: 0 auto; 
+} */
+.trend{
+    background-color: orangered;
+    height: 60px;
+}
+ul, li{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.trendyol{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-weight: 500;
+    font-size: 40px;
+    position: absolute;
+}
+.divinput{
+    display: flex;
+}
+.input{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid aliceblue;
+    background-color: aliceblue;
+    font-size: 12px;
+}
+.axtar{
+
+    left: 870px;
+    position: absolute;
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+}
+.ul1{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+a{
+    color: black;
+    margin-left: 40px;
+}
+.ul2{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: 400;
+    justify-content: space-evenly;
+}
+.li4, .li5, .li6, .li7, .li8, .li9, .li10, .li11, .li12{
+    font-weight: 700;
+}
+hr{
+    margin-top: 10px;
+    color: aliceblue;
+}
+.aydadiv{
+    width: 1300px;
+    margin: 30px auto;
+}
+.yuxu{
+    display: flex;
+    height: 116px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blok1{
+    width: 400px;
+    height: 100px;
+    background-color: green;
+    background-image: url("./sekil1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+} 
+.blok2{
+    width: 400px;
+    height: 100px;
+    background-color: green;
+    background-image: url("./sekil2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+ 
+.blok3{
+    width: 400px;
+    height: 100px;
+    background-color: green;
+    background-image: url("./sekil3.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.ayda{
+    width: 1300px;
+    height: 120px;
+    background-color: antiquewhite;
+    margin-top: 13px;
+    display: flex;
+}
+
+.li13{
+    display: block;
+    margin-right: center;
+}
+.blok4{
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-color: transparent;
+    background-image: url("./sekil4.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    position: relative;
+}
+.bloks{
+    position: absolute;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    top: 70px;
+    left: 5px;
+    font-weight: 300;
+}
